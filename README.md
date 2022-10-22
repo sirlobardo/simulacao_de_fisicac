@@ -1,20 +1,9 @@
 # simulacao_de_fisicac
-Trajetória de uma partícula carregada numa região de campo elétrico uniforme
+Uma partícula carregada de carga q e massa m com velocidade inicial constante (direção vertical) entra numa região que contém um campo elétrico constante na direção horizontal,
+no ponto 𝐴(𝑥0,𝑦0) em um instante 𝑡0. Depois de um determinado intervalo de tempo (∆𝑡=𝑡−𝑡0), o campo elétrico começa a girar com uma velocidade angular constante ω. Nessas condições construa a trajetória dessa partícula no plano 𝑥𝑦 depois de um tempo 𝑡>𝑡0.
 
-fluxo do texto...
+![Alt text](imagens/1.png "imagem 1")
 
 $$
    f(x,y) = \sin(x+y)
 $$
-
-fluxo do texto...
-
----
-layout: post
-title: Equação para simulação de Física C
-author: sirlobardo
-tag:
-  - equacoes
-  - LaTeX
-mathjax: true
----
