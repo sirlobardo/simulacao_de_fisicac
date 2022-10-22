@@ -8,3 +8,10 @@ no ponto 𝐴(𝑥0,𝑦0) em um instante 𝑡0. Depois de um determinado interv
 ![Alt text](imagens/2.png "imagem 2")
 
 ![Alt text](imagens/3.png "imagem 3")
+
+## Para a simulação funcionar corretamente instale o python:
+- Instale o pip:
+$ python -m pip install -U pip
+- Instale os módulos:
+$ python -m pip install -U matplotlib
+$ pip install numpy
