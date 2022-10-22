@@ -4,6 +4,7 @@ no ponto 𝐴(𝑥0,𝑦0) em um instante 𝑡0. Depois de um determinado interv
 
 ![Alt text](imagens/1.png "imagem 1")
 
-$$
-   f(x,y) = \sin(x+y)
-$$
+
+![Alt text](imagens/2.png "imagem 2")
+
+![Alt text](imagens/3.png "imagem 3")
