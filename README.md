@@ -11,7 +11,11 @@ no ponto 𝐴(𝑥0,𝑦0) em um instante 𝑡0. Depois de um determinado interv
 
 ## Para a simulação funcionar corretamente instale o python:
 - Instale o pip:
+```bash
 $ python -m pip install -U pip
+```
 - Instale os módulos:
+```bash
 $ python -m pip install -U matplotlib
 $ pip install numpy
+```
