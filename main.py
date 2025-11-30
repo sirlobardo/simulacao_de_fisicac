@@ -4,24 +4,23 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-y0 = float(input("Digite o valor de y0: "))
+# Valores típicos usados em tubos de raios catódicos (CRT):
+y0 = 0.0              # posição inicial em y (m)
+vy0 = 2e5             # velocidade inicial em y (m/s) – feixe lançado rápido
+q = 1.6e-19           # carga do elétron (C)
+E = 3e4               # campo elétrico (V/m)
+m = 9.11e-31          # massa do elétron (kg)
+omega = 2e7           # frequência angular (rad/s) – variação do campo
 
-vy0 = float(input("Digite o valor de vy0: "))
+t = np.linspace(0, 1e-6, 1000)  # tempo em MICROSEGUNDOS
 
-q = float(input("Digite o valor de q: "))
-E = float(input("Digite o valor de E: "))
-m = float(input("Digite o valor de m: "))
+# Equações de movimento sob campo oscilatório
+x = (q*E/(2*m*omega**2)) * (1 - np.cos(omega * t))
+y = y0 + vy0 * t + (q*E/(2*m*omega**2)) * (t - np.sin(omega * t))
 
-omega = float(input("Digite o valor de omega: "))
-
-t = np.linspace(0,10,100)
-
-x = (q*E/(2*m*omega**2))*(1-np.cos(omega*t))
-
-y = y0 + vy0*t + (q*E/(2*m*omega**2))*(t-np.sin(omega*t))
-
-print(x, "\n", y)
-
-plt.plot(x,y)
+plt.plot(x, y)
+plt.xlabel("Posição x (m)")
+plt.ylabel("Posição y (m)")
+plt.title("Trajetória do feixe eletrônico (simulação CRT)")
+plt.grid(True)
 plt.show()
-
