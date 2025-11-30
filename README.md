@@ -96,6 +96,6 @@ Os parâmetros (`q`, `m`, `x0`, `y0`, `vy0`, `E`, `t0`, `omega`) devem ser alter
 
 ## 📷 Resultado da Simulação
 
-![Plot padrão](imagens/4.png) |
+![Plot padrão](imagens/4.png) 
 
 ---
